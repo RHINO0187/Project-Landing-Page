@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-    padding: 3px;
+    padding: 3px;   
 }
 
 .left-links {
@@ -19,6 +19,37 @@
     font-weight: bolder;
     font-size: 18px;
 }
+
+.hero-header {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero {
+    display: flex;
+    color: white;
+    flex-direction: row;
+}
+
+.body {
+    background-color: #f9faf8;
+}
+
+
+.pictures {
+    background-color: #f9faf8;
+}
+
+.awesome {
+    display:flex;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
 
 ul li {
     list-style: none;
