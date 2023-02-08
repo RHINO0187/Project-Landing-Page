@@ -30,15 +30,25 @@
     display: flex;
     color: white;
     flex-direction: row;
+    font-size: 15px;
 }
 
 .body {
     background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
 }
-
 
 .pictures {
     background-color: #f9faf8;
+    height: 500px;
+    width: 500px;
+}
+
+.picture-container {
+    display: flex;
+    flex-direction: row;
 }
 
 .awesome {
