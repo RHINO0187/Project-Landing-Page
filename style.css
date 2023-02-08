@@ -82,6 +82,32 @@
     align-items:flex-end
 }
 
+.action {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left-action {
+    color:#e5e7eb;
+}
+
+.headline {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.buttons {
+    border-radius: 8px;
+}
+
 img {
     max-width: 50%;
     max-height: 50%;
