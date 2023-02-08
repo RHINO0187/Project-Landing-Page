@@ -12,6 +12,7 @@
     flex-direction: row;
     gap: 20px;
     padding: 3px;   
+    font-size: 18px;
 }
 
 .left-links {
