@@ -20,6 +20,13 @@
     font-size: 18px;
 }
 
+.main-picture {
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
 .hero-header {
     color: #f9faf8;
     font-size: 48px;
@@ -30,7 +37,11 @@
     display: flex;
     color: white;
     flex-direction: row;
-    font-size: 15px;
+    font-size: 17px;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin: 30px;
+    gap: 50px;
 }
 
 .body {
@@ -46,7 +57,7 @@
     width: 500px;
 }
 
-.picture-container {
+.picture-container {    
     display: flex;
     flex-direction: row;
 }
@@ -58,8 +69,8 @@
 img {
     max-width: 50%;
     max-height: 50%;
+    border-radius: 8px;
 }
-
 
 ul li {
     list-style: none;
